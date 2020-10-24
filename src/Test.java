@@ -16,7 +16,7 @@ public class Test {
 
 public void newGame () {
 	do {
-		System.out.print("Введите количество игроков (макс. 5): ");
+		System.out.print("Enter the number of players (max. 5): ");
 		numberOfPlayers = scanInt.nextInt();
 		if (numberOfPlayers>=1 && numberOfPlayers<=5) {isTrue=false;}
 	}	
@@ -29,12 +29,12 @@ newScore = new int [numberOfPlayers];
 		for (int j=0;j<3;j++) {
 			
 			if(j==0) {
-				System.out.print("Введите имя "+(i+1)+"-го игрока: ");
+				System.out.print("Enter the name of the "+(i+1)+" player: ");
 				Person[i][j]=scanLine.nextLine();
 				newPerson.name=Person[i][j];
 				}
 			else if (j==1) {
-				System.out.print("Введите возраст "+(i+1)+"-го игрока: ");
+				System.out.print("Enter the age of the "+(i+1)+" player: ");
 				Person[i][j]=scanLine.nextLine();
 				newPerson.age=Person[i][j];
 				}
@@ -51,13 +51,13 @@ newScore = new int [numberOfPlayers];
 			newQuestion.scoreNull();
 			}
 		}
-	System.out.println("\nРезультаты игры:\n");
+	System.out.println("\nGame results:\n");
 	for (int i2=0;i2<numberOfPlayers;i2++) {
 		for (int j2=0;j2<4;j2++) {
 			switch(j2) {
-				case 0:System.out.println("Имя "+(i2+1)+"-го игрока: "+Person[i2][j2]); break;
-				case 1:System.out.println("Возраст игрока "+Person[i2][j2-1]+": "+Person[i2][j2]); break;
-				case 2:System.out.println("Кол-во очков игрока "+Person[i2][j2-2]+": "+newScore[i2]+"\n");	
+				case 0:System.out.println((i2+1)+" players name: "+Person[i2][j2]); break;
+				case 1:System.out.println(Person[i2][j2-1]+"'s age: "+Person[i2][j2]); break;
+				case 2:System.out.println(Person[i2][j2-2]+"'s points: "+newScore[i2]+"\n");	
 	}		
 		}		
 	}	

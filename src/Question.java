@@ -8,21 +8,21 @@ public class Question {
 	
 	Scanner scanAnswer = new Scanner(System.in);
 	
-	String right = "(правильный ответ)\n";
-	String wrong = "(неправильный ответ)\n";
+	String right = "(right answer)\n";
+	String wrong = "(wrong answer)\n";
 	
 	int answer;
 	
 	public void question1 () {
 		
 		System.out.println("================================\n"
-				+ "Задание №1\n"
-				+ "Посчитай:\n"
+				+ "Exercise №1\n"
+				+ "Count:\n"
 				+ "90 - ( 5 + 3 ∙ 10 ) : 5 + 2 =\n"
-				+ "Варианты ответа:\n"
+				+ "Answer options:\n"
 				+ "1) 76\n2) 85\n3) 13\n4) 4\n"
 				+ "================================\n"
-				+ "Введите номер ответа: \n");
+				+ "Type your answer number: \n");
 				
 		questionRight = 2;
 		answer();
@@ -31,13 +31,13 @@ public class Question {
 	public void question2 () {
 		
 		System.out.println("================================\n"
-				+ "Задание №2\n"
-				+ "Подставь правильное число:\n"
+				+ "Exercise №2\n"
+				+ "Replace |    | by the correct number:\n"
 				+ "10 - ( 5 ∙ |    | + 5 ) : 5 = 1\n"
-				+ "Варианты ответа:\n"
-				+ "1) 0\n2) 1\n3) 8\n4) другое\n"
+				+ "Answer options:\n"
+				+ "1) 0\n2) 1\n3) 8\n4) other\n"
 				+ "================================\n"
-				+ "Введите номер ответа: \n");
+				+ "Type your answer number: \n");
 				
 		questionRight = 3;
 		answer();
@@ -46,13 +46,13 @@ public class Question {
 	public void question3 () {
 		
 		System.out.println("================================\n"
-				+ "Задание №3\n"
-				+ "Пустой стакан весит 180 гр. Стакан, наполненный на 1/3 водой весит 320 гр.:\n"
-				+ "Сколько будет весить вода в стакане, если его заполнить на 1/2?\n"
-				+ "Варианты ответа:\n"
-				+ "1) 500 гр.\n2) 210 гр.\n3) 460 гр.\n4) 140 гр.\n"
+				+ "Exercise №3\n"
+				+ "An empty glass weights 180 g. A glass, filled 1/3 with water weights 320 g.:\n"
+				+ "What is the weight of the water, when the glass is 1/2 full?\n"
+				+ "Answer options:\n"
+				+ "1) 500 g.\n2) 210 g.\n3) 460 g.\n4) 140 g.\n"
 				+ "================================\n"
-				+ "Введите номер ответа: \n");
+				+ "Type your answer number: \n");
 				
 		questionRight = 2;
 		answer();
@@ -61,16 +61,16 @@ public class Question {
 	public void question4 () {
 		
 		System.out.println("================================\n"
-				+ "Задание №4\n"
-				+ "С января по апрель авиакомпания продала 147 билетов.\n"
-				+ "В самый лучший месяц, который не был апрелем она продала 4/7 всех билетов."
-				+ "В январе и в ещё какой-то месяц она продала 1/3 билетов лучшего месяца."
-				+ "Март был наихудшим по продажам."
-				+ "Сколько билетов продала авиакомпания с января по март?\n"
-				+ "Варианты ответа:\n"
-				+ "1) от 90 - 103\n2) от 104 - 114\n3) от 115 - 120\n4) 121 - 140\n"
+				+ "Exercise №4\n"
+				+ "From January to April, the airline sold 147 tickets.\n"
+				+ "In the best month (was not April), it sold 4/7 of all tickets."
+				+ "In January and in one other month, it sold 1/3 of the best month tickets."
+				+ "March was the worst in sales."
+				+ "How many tickets have the airline sold from January to March?\n"
+				+ "Answer options:\n"
+				+ "1) from 90 to 103\n2) from 104 to 114\n3) from 115 to 120\n4) from 121 to 140\n"
 				+ "================================\n"
-				+ "Введите номер ответа: \n");
+				+ "Type your answer number: \n");
 				
 		questionRight = 3;
 		answer();
@@ -79,13 +79,13 @@ public class Question {
 	public void question5 () {
 		
 		System.out.println("================================\n"
-				+ "Задание №5\n"
-				+ "Напишите следующее число в последовательности:\n"
+				+ "Exercise №5\n"
+				+ "Find the next number in the sequence:\n"
 				+ "3 2 6 8 4"
-				+ "Варианты ответа:\n"
-				+ "1) от 1 - 5\n2) от 6 - 10\n3) от 11 - 15\n4) от 16 - 20\n"
+				+ "Answer options:\n"
+				+ "1) from  1 to 5\n2) from 6 to 10\n3) from 11 to 15\n4) from 16 to 20\n"
 				+ "================================\n"
-				+ "Введите номер ответа: \n");
+				+ "Type your answer number: \n");
 				
 		questionRight = 4;
 		answer();
